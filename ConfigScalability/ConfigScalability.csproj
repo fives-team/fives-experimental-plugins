@@ -30,6 +30,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Collections">
+      <HintPath>..\Lib\FiVES\Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="DomainModel">
+      <HintPath>..\Lib\FiVES\DomainModel.dll</HintPath>
+    </Reference>
+    <Reference Include="FiVESMath">
+      <HintPath>..\Lib\FiVES\FiVESMath.dll</HintPath>
+    </Reference>
+    <Reference Include="PluginManager">
+      <HintPath>..\Lib\FiVES\PluginManager.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -38,6 +50,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="Terminal">
+      <HintPath>..\Lib\FiVES\Terminal.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfigDoI.cs" />
@@ -47,22 +62,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\Collections\Collections.csproj">
-      <Project>{9c2af21f-4d8c-4ade-a5c4-135a6f50e18a}</Project>
-      <Name>Collections</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Core\DomainModel\DomainModel.csproj">
-      <Project>{79ef699d-6a88-4054-af04-f22486db47fa}</Project>
-      <Name>DomainModel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Core\Math\Math.csproj">
-      <Project>{a2d1d8e5-7c5c-4ea3-95c7-d8d97ab0b74e}</Project>
-      <Name>Math</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Core\PluginManager\PluginManager.csproj">
-      <Project>{db1099a1-b7fe-474f-a03a-41687d6c5c76}</Project>
-      <Name>PluginManager</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Scalability\Scalability.csproj">
       <Project>{f88daf4a-1c7b-4ef0-aee0-55624976c4db}</Project>
       <Name>Scalability</Name>
@@ -70,10 +69,6 @@
     <ProjectReference Include="..\ServerSync\ServerSync.csproj">
       <Project>{5782bb3a-3eff-4787-80d2-81a1e1dbae7e}</Project>
       <Name>ServerSync</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Terminal\Terminal.csproj">
-      <Project>{fdf2de99-68cf-4947-952c-2d2bcc846f3e}</Project>
-      <Name>Terminal</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
