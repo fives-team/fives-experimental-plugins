@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigScalability", "ConfigScalability\ConfigScalability.csproj", "{204CAA3B-36CE-4C24-B4A8-8F089741F002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scalability", "Scalability\Scalability.csproj", "{F88DAF4A-1C7B-4EF0-AEE0-55624976C4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerSync", "ServerSync\ServerSync.csproj", "{5782BB3A-3EFF-4787-80D2-81A1E1DBAE7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{204CAA3B-36CE-4C24-B4A8-8F089741F002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204CAA3B-36CE-4C24-B4A8-8F089741F002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204CAA3B-36CE-4C24-B4A8-8F089741F002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204CAA3B-36CE-4C24-B4A8-8F089741F002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88DAF4A-1C7B-4EF0-AEE0-55624976C4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88DAF4A-1C7B-4EF0-AEE0-55624976C4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88DAF4A-1C7B-4EF0-AEE0-55624976C4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88DAF4A-1C7B-4EF0-AEE0-55624976C4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5782BB3A-3EFF-4787-80D2-81A1E1DBAE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5782BB3A-3EFF-4787-80D2-81A1E1DBAE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5782BB3A-3EFF-4787-80D2-81A1E1DBAE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5782BB3A-3EFF-4787-80D2-81A1E1DBAE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
